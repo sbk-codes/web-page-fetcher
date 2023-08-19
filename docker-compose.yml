@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web_page_fetcher:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    command: ["ruby", "main.rb", "https://www.google.com", "https://www.autify.com", "https://www.weworkremotely.com"]
