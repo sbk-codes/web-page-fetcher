@@ -10,7 +10,7 @@ A command-line script to fetch web pages, save content locally, and display meta
 
 3. **Modify docker-compose.yml (if needed):**:  Replace URLs with the ones you want to fetch. To do replace, 
    Go to `docker-compose.yml` `https://www.google.com` and `https://www.autify.com`. To add additional URLs, follow the format and add them to the list or array of URLs:
-   `command: ["ruby", "main.rb", "https://www.google.com", "https://www.autify.com", "https://www.additionalurl.com"]``
+   `command: ["ruby", "main.rb", "https://www.google.com", "https://www.autify.com", "https://www.additionalurl.com"]`
 
 4. **Run Docker Compose**: Execute the following command to run the Docker container using docker-compose:
 ```
