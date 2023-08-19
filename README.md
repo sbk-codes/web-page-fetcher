@@ -29,7 +29,7 @@ docker-compose up
 3. **Run the Script**: Execute the main script using the Ruby interpreter.
 `ruby main.rb https://www.google.com https://www.autify.com`
 
-Note: Ensure gem `nokogiri` is installed or run `gem install nokogiri open-uri uri`
+Note: Ensure gem `nokogiri` is installed or run `gem install`
 
 Replace `https://www.google.com` and `https://www.autify.com` with the URLs you want to fetch.
 
