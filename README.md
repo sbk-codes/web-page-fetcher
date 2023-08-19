@@ -18,6 +18,29 @@ docker-compose up
 ```
 5. **View Output**: The script will fetch web pages, save them to files, and display metadata in the terminal.
 
+---
+
+## Running the Script with Ruby
+
+1. **Clone the Repository**: Clone this repository to your local machine using `git clone`.
+
+2. **Navigate to the Directory**: Open a terminal and navigate to the directory where you cloned the repository.
+
+3. **Run the Script**: Execute the main script using the Ruby interpreter.
+`ruby main.rb https://www.google.com https://www.autify.com`
+
+Note: Ensure gem `nokogiri` is installed or run `gem install nokogiri open-uri uri`
+
+Replace `https://www.google.com` and `https://www.autify.com` with the URLs you want to fetch.
+
+4. **View Output**: The script will fetch the web pages, save them to files, and display metadata in the terminal.
+
+Make sure you have Ruby installed on your local machine. You can check your Ruby version with `ruby -v`.
+
+Note: This method is for running the script directly with Ruby, without using Docker.
+
+---
+
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.

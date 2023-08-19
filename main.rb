@@ -1,7 +1,6 @@
 # Import required libraries
-require 'nokogiri'
 require 'open-uri'
-require 'uri'
+require 'nokogiri'
 
 # A class for fetching and handling web pages
 class WebPageFetcher
@@ -12,7 +11,7 @@ class WebPageFetcher
   def fetch_pages
     @urls.each do |url|
       begin
-        html_content = URI.open(url).read
+        html_content = URI.parse(url).open
         save_to_file(url, html_content)
         display_metadata(url, html_content)
       rescue OpenURI::HTTPError => e

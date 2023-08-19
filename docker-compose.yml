@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/app
-    command: ["ruby", "main.rb", "https://www.google.com", "https://www.autify.com", "https://www.weworkremotely.com"]
+    command: ["ruby", "main.rb", "https://www.google.com", "https://www.autify.com"]
